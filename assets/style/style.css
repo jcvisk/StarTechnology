@@ -1,0 +1,22 @@
+:root{
+    --azul: #222c81;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/*GENERALES-------*/
+.container-fluid {
+    padding-right: 7% !important;
+    padding-left: 7% !important;
+}
+nav.navbar ul.navbar-nav a{
+    color: var(--azul) !important;
+    font-weight: 600;
+}
+
+.carousel-caption{
+    top: 25%;
+    bottom: 15%;
+    margin: auto;
+}
