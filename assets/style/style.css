@@ -5,7 +5,24 @@
     margin: 0;
     padding: 0;
 }
+
+@font-face {
+    font-family: "Titillium";
+    src: url(../fonts/Titillium_Web/TitilliumWeb-SemiBold.ttf);
+}
+@font-face {
+    font-family: "Viga";
+    src: url(../fonts/Viga/Viga-Regular.ttf);
+}
 /*GENERALES-------*/
+body{
+    font-family: "Titillium";
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Viga";
+    font-weight: 800;
+    color: var(--azul);
+}
 .container-fluid {
     padding-right: 7% !important;
     padding-left: 7% !important;
@@ -13,10 +30,4 @@
 nav.navbar ul.navbar-nav a{
     color: var(--azul) !important;
     font-weight: 600;
-}
-
-.carousel-caption{
-    top: 25%;
-    bottom: 15%;
-    margin: auto;
 }
