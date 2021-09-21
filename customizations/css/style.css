@@ -27,6 +27,9 @@ h1,h2,h3,h4,h5,h6{
     font-weight: 800;
     color: var(--azul);
 }
+.txt{
+    font-size: calc(15px + (20 - 15) * ((100vw - 300px) / (1600 - 300)));
+}
 .container-fluid {
     padding-right: 7% !important;
     padding-left: 7% !important;
@@ -66,4 +69,43 @@ h1,h2,h3,h4,h5,h6{
 }
 .dropdown-menu>.dropdown-item:hover {
     background-color: transparent !important;
+}
+
+.footer {
+    background-color: var(--azul);
+    color: white !important;
+}
+.footer h1,
+.footer h2,
+.footer h3,
+.footer h4,
+.footer h5,
+.footer h6{
+    color: white !important;
+}
+.footer .info {
+    font-size: calc(10px + (15 - 10) * ((100vw - 300px) / (1600 - 300)));
+    list-style: none !important;
+    padding: 0;
+}
+
+.footer .info a {
+    color: white;
+}
+
+.footer .fa-circle {
+    color: white;
+    line-height: inherit;
+}
+
+.footer .fa-facebook, .footer .fa-twitter, .footer .fa-instagram, .footer .fa-linkedin {
+    color: var(--azul);
+}
+
+
+
+/*Filosofia*/
+#accordionValores a:hover{
+    border-bottom: 2px solid var(--azul);
+    color: var(--azul) !important;
 }
