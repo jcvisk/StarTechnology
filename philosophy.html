@@ -608,7 +608,8 @@
                     <h5>Sociales</h5>
                     <ul class="social-menu list-inline">
                         <li class="list-inline-item m-0">
-                            <a href="#" target="_blank" title="facebook" class="facebook">
+                            <a href="https://www.facebook.com/StarTechnologyLicensed/" target="_blank" title="facebook"
+                                class="facebook">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
                                     <i class="fa fa-facebook fa-stack-1x  fa-inverse" aria-hidden="true"></i>
@@ -631,6 +632,32 @@
             </div>
         </div>
     </footer>
+
+    <!-- Messenger plugin del chat Code -->
+    <div id="fb-root"></div>
+    <!-- Your plugin del chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+    <script>
+        var chatbox = document.getElementById('fb-customer-chat');
+        chatbox.setAttribute("page_id", "100203968768076");
+        chatbox.setAttribute("attribution", "biz_inbox");
+
+        window.fbAsyncInit = function () {
+            FB.init({
+                xfbml: true,
+                version: 'v12.0'
+            });
+        };
+
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
 
     <!-- jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="assets/js/jquery-3.5.1.slim.min.js"></script>
