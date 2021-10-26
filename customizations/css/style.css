@@ -11,7 +11,11 @@
 }
 
 @font-face {
-    font-family: "Titillium";
+    font-family:'Titillium Web';
+    src: url(../../assets/fonts/Titillium_Web/TitilliumWeb-Regular.ttf);
+}
+@font-face {
+    font-family:'Titillium Web SBold';
     src: url(../../assets/fonts/Titillium_Web/TitilliumWeb-SemiBold.ttf);
 }
 @font-face {
@@ -20,7 +24,7 @@
 }
 /*GENERALES-------*/
 body{
-    font-family: "Titillium";
+    font-family:'Titillium Web SBold';
 }
 h1,h2,h3,h4,h5,h6{
     font-family: "Viga";
