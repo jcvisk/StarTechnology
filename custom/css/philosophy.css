@@ -1,0 +1,4 @@
+#accordionValores a:hover{
+    border-bottom: 2px solid var(--azul);
+    color: var(--azul) !important;
+}
