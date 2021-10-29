@@ -2,6 +2,7 @@
     --azul: #5492ee;
     --dark: #434343;
     --blanco: #FFFFFF;
+    --gris: #f0f0f0;
     --dark-transparent: rgba(67, 67, 67, .9);
     --azul-transparent: rgba(34, 44, 129, .9);
 }
@@ -38,6 +39,7 @@ h1,h2,h3,h4,h5,h6{
     font-family: "Viga";
     font-weight: 800;
     color: var(--azul);
+    text-shadow: 2px 2px 4px black;
 }
 .txt{
     font-size: calc(15px + (20 - 15) * ((100vw - 300px) / (1600 - 300)));
@@ -60,6 +62,15 @@ h1,h2,h3,h4,h5,h6{
     background-color: var(--blanco);
     -webkit-box-shadow: 0px 7px 19px -8px #000000; 
     box-shadow: 0px 7px 19px -8px #000000;
+}
+
+.bg-glass{
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .bg-white ul.navbar-nav a{
@@ -109,23 +120,7 @@ h1,h2,h3,h4,h5,h6{
     color: white;
 }
 
-/*
-.footer .fa-facebook-f, 
-.footer .fa-twitter, 
-.footer .fa-instagram, 
-.footer .fa-linkedin {
-    color: var(--azul)  !important;
-}*/
-
-/*
-
-*/
-/*
-    Auther: Abdelrhman Said
-*/
-
-
-
+/* redes sociales */
 .wrapper {
   display: inline-flex;
 }
